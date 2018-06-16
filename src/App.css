@@ -1,0 +1,28 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+.heading {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.player {
+
+  top:50%;
+  left:50%;
+  max-width: 80vw;
+  /* -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%); */
+  box-shadow: 5px 5px 30px 0px;
+}
+
+.ytp-cued-thumbnail-overlay {
+  max-width: 80vw;
+}
+#player-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100vw;
+}
