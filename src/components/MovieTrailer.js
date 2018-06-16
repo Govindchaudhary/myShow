@@ -6,6 +6,10 @@ import {connect} from 'react-redux'
 
 class MovieTrailer extends Component {
   
+  componentWillMount(){
+    this.props.fetchTrailer(this.props.movieId)
+  }
+  
   render () {
     const opts = {
       playerVars: { // https://developers.google.com/youtube/player_parameters
