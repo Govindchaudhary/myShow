@@ -7,7 +7,7 @@ import MovieTrailer from './MovieTrailer';
 class MovieDetail extends React.Component {
     componentDidMount() {
 
-        this.props.fetchTrailer(this.props.match.params.id)
+       
         this.props.fetchMovies();
       }
     
@@ -25,7 +25,7 @@ class MovieDetail extends React.Component {
                             <div>
 
                                 
-                                <MovieTrailer  />
+                                <MovieTrailer movieId={movie.id}  />
                                 
                             </div>
                         );
